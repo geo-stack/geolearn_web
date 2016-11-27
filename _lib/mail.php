@@ -30,7 +30,7 @@
     $mail->From = $email;
     $mail->FromName = $name;
     $mail->AddReplyTo($email,$name);
-    $mail->addAddress('contact@geolearn.ca', $name);  // Add a recipient
+    $mail->addAddress('xx@gmail.com', $name);  // Add a recipient
 
     $mail->WordWrap = 50;                               // Set word wrap to 50 characters
     $mail->isHTML(true);                                // Set email format to HTML
