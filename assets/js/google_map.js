@@ -21,7 +21,7 @@
             zoom: zoomLevel,
             disableDefaultUI: true,
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(46.810940, -71.240743), // Quebec, St-Vallier
+            center: new google.maps.LatLng(46.810132, -71.253228), // Quebec, St-Vallier
             scrollwheel: false,
             // Map styling
             styles: [{
