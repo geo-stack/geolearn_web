@@ -1,6 +1,6 @@
 <?php
 
-    require 'phpmailer/PHPMailerAutoload.php';
+    require '../lib/phpmailer/PHPMailerAutoload.php';
 
     // CONFIG YOUR FIELDS
     //============================================================
