@@ -137,8 +137,37 @@
               <br>
               <div class="panel" id="contact-panel">
                 <p class="semi-bold no-margin">Let's setup a free meeting to discuss how we can work together. Fill up this form to contact us  </p>
-                <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="_lib/mail.php" method="post">
+                <form method="POST" action="http://formspree.io/contact@geolearn.ca">
                   <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group form-group-default required">
+                        <label>First name</label>
+                        <input type="text" name="name" class="form-control" placeholder="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group form-group-default">
+                          <label>Last name</label>
+                        <input type="text" name="last-name" class="form-control" placeholder="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group form-group-default">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="Your email">
+                  </div>
+                  <div class="form-group form-group-default">
+                    <label>Message</label>
+                    <textarea name="message" placeholder="Type the message you wish to send" class="form-control" style="height:100px"></textarea>
+                  </div>
+                  <div class="sm-p-t-10 clearfix">
+                    <!-- <p class="pull-left small hint-text m-t-5 font-arial">I hereby certify that the information above is true and accurate. </p> -->
+                    <button class="btn btn-primary font-montserrat all-caps fs-12 pull-right xs-pull-left" type="submit">Submit</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </form>
+                <!-- <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="_lib/mail.php" method="post"> -->
+                  <!-- <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group form-group-default required">
                         <label>First name</label>
@@ -151,21 +180,21 @@
                         <input type="text" name="last-name" class="form-control" required>
                       </div>
                     </div>
-                  </div>
-                  <div class="form-group form-group-default">
+                  </div> -->
+                  <!-- <div class="form-group form-group-default">
                     <label>Email</label>
                     <input type="email" name="email" placeholder="This can be changed later" class="form-control" required>
-                  </div>
-                  <div class="form-group form-group-default">
+                  </div> -->
+                  <!-- <div class="form-group form-group-default">
                     <label>Message</label>
                     <textarea name="message" placeholder="Type the message you wish to send" style="height:100px" class="form-control" required></textarea>
-                  </div>
-                  <div class="sm-p-t-10 clearfix">
-                    <!-- <p class="pull-left small hint-text m-t-5 font-arial">I hereby certify that the information above is true and accurate. </p> -->
+                  </div> -->
+                  <!-- <div class="sm-p-t-10 clearfix">
+
                     <button class="btn btn-primary font-montserrat all-caps fs-12 pull-right xs-pull-left">Submit</button>
-                  </div>
-                  <div class="clearfix"></div>
-                </form>
+                  </div> -->
+                  <!-- <div class="clearfix"></div> -->
+                <!-- </form> -->
               </div>
             </div>
           </div>

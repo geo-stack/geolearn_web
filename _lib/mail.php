@@ -23,7 +23,7 @@
     $mail->Host = 'mail.privateemail.com';                // Specify main and backup server (this is a fake name for the use of this example)
 
     $mail->Username = 'contact@geolearn.ca';                  // SMTP username
-    $mail->Password = '1geolearn!';                         // SMTP password
+    $mail->Password = '********';                         // SMTP password
     $mail->SMTPSecure = 'ssl';                          // Enable encryption, 'ssl' also accepted
     $mail->Port = 465;
 
