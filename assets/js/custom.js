@@ -6,10 +6,15 @@ $(document).ready(function() {
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        slidesPerView: 1,
+        // slidesPerView: 1,
+        // slidesPerGroup: 3,
         loop: true,
+        // spaceBetween: 30,
         parallax: true,
-        speed:1000,
+        speed:2000,
+        freeMode: true,
+        autoplay: 5000,
+        autoplayDisableOnInteraction: false
     });
 
    // Initialize Search
@@ -23,16 +28,16 @@ $(document).ready(function() {
         onSearchSubmit: function(searchString) {
             console.log("Search for: " + searchString);
         },
-        // Callback that will be run whenever you enter a key into search box. 
-        // Perform any live search here.  
+        // Callback that will be run whenever you enter a key into search box.
+        // Perform any live search here.
         onKeyEnter: function(searchString) {
             console.log("Live search for: " + searchString);
             var searchField = $('#overlay-search');
             var searchResults = $('.search-results');
 
-            /* 
+            /*
                 Do AJAX call here to get search results
-                and update DOM and use the following block 
+                and update DOM and use the following block
                 'searchResults.find('.result-name').each(function() {...}'
                 inside the AJAX callback to update the DOM
             */
@@ -53,6 +58,6 @@ $(document).ready(function() {
 
         }
     });
-    
+
 
 });

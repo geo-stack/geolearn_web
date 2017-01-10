@@ -1091,12 +1091,12 @@ body.pace-white .pace .pace-progress {
   visibility: hidden;
 }
 .swiper-pagination-bullet {
-  width: 6px;
-  height: 6px;
+  width: 12px;
+  height: 12px;
   margin: 0 3px;
 }
 .swiper-pagination-bullet-active {
-  background: #2c2c2c;
+  background: #1C1C1C;
 }
 .swiper-pagination.swiper-pagination-light .swiper-pagination-bullet,
 .swiper-pagination.swiper-pagination-light .swiper-pagination-bullet-active {
@@ -1104,7 +1104,7 @@ body.pace-white .pace .pace-progress {
 }
 .swiper-pagination.swiper-pagination-dark .swiper-pagination-bullet,
 .swiper-pagination.swiper-pagination-dark .swiper-pagination-bullet-active {
-  background: #2c2c2c;
+  background: #1C1C1C;
 }
 .swiper-navigation {
   width: 47px;
