@@ -19,7 +19,6 @@
     <!-- BEGIN PLUGINS -->
     <link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/bootstrap/css/bootstrap-custom.css" rel="stylesheet" type="text/css" />
     <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <link href="assets/plugins/swiper/css/swiper.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="assets/plugins/round-about/css/round-about.css" rel="stylesheet">
@@ -147,9 +146,9 @@
                         </div>
                         <div class="modal-body">
                           <form method="POST" action="http://formspree.io/contact@geolearn.ca" class="form-horizontal col-sm-12">
-                            <div class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text"></div>
-                            <div class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
-                            <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text"></div>
+                            <div name="fullname" class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text"></div>
+                            <div name="message" class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
+                            <div name="e-mail" class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text"></div>
 
                             <div class="form-group"><button type="submit" class="btn btn-custom pull-right">Send It!</button> </div>
                           </form>
@@ -207,8 +206,7 @@
                 <h3 style='text-align:center'>Lorenzo Perozzi, PhD
                     <!-- <small>PhD Geophysics</small> -->
                 </h3>
-                <p style='text-align:justify'>Co-Founder of geoLEARN, Lorenzo main interests focus on geodata assimilation and visualization. <br><br>Lorenzo has more than 10 years of academic experience in data analysis, data integration and data visualization of geological and geophysical data, across Canada and Switzerland. A true data science enthusiast, Lorenzo spends his spare time searching for new inspiring visualization technologies that can be applied in geoscience industry. Lorenzo holds a Ph.D. in geophysics from INRS-ETE and a MS in Geological Engineering from University of Lausanne.
-</p>
+                <p style='text-align:justify'>Co-Founder of geoLEARN, Lorenzo main interests focus on geodata assimilation and visualization. <br><br>Lorenzo has more than 10 years of academic experience in data analysis, data integration and data visualization of geological and geophysical data, across Canada and Switzerland. A true data science enthusiast, Lorenzo spends his spare time searching for new inspiring visualization technologies that can be applied in geoscience industry. Lorenzo holds a Ph.D. in geophysics from INRS-ETE and a MS in Geological Engineering from University of Lausanne.</p>
               </div>
             </div>
           </div>
@@ -320,5 +318,15 @@
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script type="text/javascript" src="assets/js/contact.js"></script>
     <script type="text/javascript" src="assets/js/google_map.js"></script>
+    <script type="text/javascript">
+  $(function() {
+    $("#map").googleMap();
+    $("#map").addMarker({
+      coords: [46.810132, -71.253228], // GPS coords
+      url: 'http://www.tiloweb.com', // Link to redirect onclick (optional)
+      id: 'marker1' // Unique ID for your marker
+    });
+  })
+</script>
   </body>
 </html>
