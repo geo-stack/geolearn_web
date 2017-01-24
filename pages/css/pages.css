@@ -2394,6 +2394,35 @@ button:focus {
 Alternate buttons
 --------------------------------------------------
 */
+.btn-custom {
+  background-color: #58595b;
+  border-color: #58595b;
+  color:#fff;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #4b4c4e;
+  border-color: #3f4041;
+  color:#fff;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #58595b;
+  border-color: #58595b;
+}
+
 .btn-black,
 .btn-black:focus {
   color: #ffffff;
