@@ -1740,13 +1740,13 @@ h6.block {
 */
 a {
   text-shadow: none !important;
-  color: #3a8fc8;
+  color: #000;
   transition: color 0.1s linear 0s, background-color 0.1s linear 0s, opacity 0.2s linear 0s !important;
 }
 a:focus,
 a:hover,
 a:active {
-  color: #48b0f7;
+  color: #000;
 }
 a,
 a:focus,
@@ -1812,9 +1812,20 @@ address a {
   color: #626262;
 }
 blockquote {
+  color: #777777;
+  font-style: italic;
+}
+blockquote span{
+  font-size: 13px;
+  font-style:normal;
+}
+
+/*blockquote {
   padding: 0 0 0 18px;
   border-left: 0;
 }
+
+
 blockquote:before {
   content: '';
   font-family: FontAwesome;
@@ -1849,7 +1860,7 @@ blockquote.pull-right small {
 }
 blockquote.pull-right small:after {
   content: "";
-}
+}*/
 hr {
   border-color: #e6e6e6;
 }
