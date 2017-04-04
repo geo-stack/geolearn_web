@@ -1,3 +1,7 @@
+/* ============================================================
+ * Plugin Core Init
+ * For DEMO purposes only. Extract what you need.
+ * ============================================================ */
 $(document).ready(function() {
     'use strict';
     //Intialize Slider
@@ -6,18 +10,22 @@ $(document).ready(function() {
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        // slidesPerView: 1,
-        // slidesPerGroup: 3,
-        loop: true,
-        // spaceBetween: 30,
+        slidesPerView: 1,
         parallax: true,
-        speed:2000,
-        freeMode: true,
-        autoplay: 5000,
-        autoplayDisableOnInteraction: false
+        speed: 1000,
     });
 
-   // Initialize Search
+    //Intialize Testamonials
+    var testimonials_slider = new Swiper('#testimonials_slider', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        parallax: true,
+        speed: 1000
+    });
+
+    // Initialize Search
     $('[data-pages="search"]').search({
         // Bind elements that are included inside search overlay
         searchField: '#overlay-search',
@@ -28,16 +36,16 @@ $(document).ready(function() {
         onSearchSubmit: function(searchString) {
             console.log("Search for: " + searchString);
         },
-        // Callback that will be run whenever you enter a key into search box.
-        // Perform any live search here.
+        // Callback that will be run whenever you enter a key into search box. 
+        // Perform any live search here.  
         onKeyEnter: function(searchString) {
             console.log("Live search for: " + searchString);
             var searchField = $('#overlay-search');
             var searchResults = $('.search-results');
 
-            /*
+            /* 
                 Do AJAX call here to get search results
-                and update DOM and use the following block
+                and update DOM and use the following block 
                 'searchResults.find('.result-name').each(function() {...}'
                 inside the AJAX callback to update the DOM
             */
@@ -58,6 +66,4 @@ $(document).ready(function() {
 
         }
     });
-
-
 });

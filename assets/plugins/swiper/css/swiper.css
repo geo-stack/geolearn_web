@@ -1,15 +1,15 @@
 /**
  * Swiper 3.0.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
- *
+ * 
  * http://www.idangero.us/swiper/
- *
+ * 
  * Copyright 2015, Vladimir Kharlampidi
  * The iDangero.us
  * http://www.idangero.us/
- *
+ * 
  * Licensed under MIT
- *
+ * 
  * Released on: October 23, 2015
  */
 .swiper-container {
@@ -63,24 +63,14 @@
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/*.swiper-container-free-mode > .swiper-wrapper {
+.swiper-container-free-mode > .swiper-wrapper {
   -webkit-transition-timing-function: ease-out;
   -moz-transition-timing-function: ease-out;
   -ms-transition-timing-function: ease-out;
   -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   margin: 0 auto;
-}*/
-
-.swiper-container-free-mode > .swiper-wrapper {
-  -webkit-transition-timing-function: ease;
-  -moz-transition-timing-function: ease;
-  -ms-transition-timing-function: ease;
-  -o-transition-timing-function: ease;
-  transition-timing-function: ease;
-  margin: 0 auto;
 }
-
 .swiper-slide {
   -webkit-flex-shrink: 0;
   -ms-flex: 0 0 auto;
@@ -180,7 +170,7 @@
   display: inline-block;
   border-radius: 100%;
   background: #000;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 button.swiper-pagination-bullet {
   border: none;
