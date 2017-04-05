@@ -6130,10 +6130,10 @@ input.error:-webkit-autofill:focus,
   height: inherit;
 }
 .image-responsive-height {
-  width: 60%;
+  width: 45%;
 }
 .image-responsive-width {
-  height: 60%;
+  height: 45%;
 }
 .overlayer {
   position: absolute;
