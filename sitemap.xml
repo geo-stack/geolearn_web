@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://geolearn.ca/</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://geolearn.ca/index.html</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://geolearn.ca/AIM/</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://geolearn.ca/contact.html</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://geolearn.ca/index_fr.html</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://geolearn.ca/DisruptMining.html</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://geolearn.ca/contact_fr.html</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://geolearn.ca/DisruptMining_fr.html</loc>
+  <lastmod>2017-04-06T17:58:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
