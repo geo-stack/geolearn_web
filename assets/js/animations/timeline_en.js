@@ -141,12 +141,6 @@ var tip = d3.tip()
     return "<h3 style='font-family:Lato; font-weight:300;font-size:20px'>" + d.name + d.year + "</h3>  <hr> <p style='margin-top:10px;font-size:13px;line-height: 18px;'>" + d.text + "</p>";
   })
 
-// var wrap = d3.textwrap().bounds({
-//   height: 30,
-//   width: 30
-// });
-
-
 
 
 svg.call(tip);
