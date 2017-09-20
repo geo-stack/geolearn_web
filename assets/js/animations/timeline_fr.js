@@ -144,7 +144,7 @@ var tip = d3.tip()
 // var wrap = d3.textwrap().bounds({
 //   height: 30,
 //   width: 30
-});
+// });
 
 
 
