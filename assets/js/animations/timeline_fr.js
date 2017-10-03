@@ -13,7 +13,7 @@ var margin = {
 var data = [{
   "name": "Novembre ",
   "year": "2016",
-  "text": "Intéressés par l’intelligence artificielle appliquée aux géosciences, Martin Blouin, Antoine Caté et Lorenzo Perozzi fondent geoLEARN.",
+  "text": "Intéressés par l’intelligence artificielle appliquée aux géosciences, Martin Blouin, Antoine Caté et Lorenzo Perozzi fondent Geolearn.",
   "date": -1,
   "y": Math.random() * (-1.5 - (-2.5)) + (-2.5),
   "y0": 0,
@@ -22,14 +22,14 @@ var data = [{
   "offset": "33%",
   "color": "#3498db",
   'delay': 0,
-  "desc1": 'geoLEARN',
+  "desc1": 'Geolearn',
   "desc2": 'est fondée',
   "year1":'2016',
   "credits":'Placer la souris sur le cercle pour les détails'
 }, {
   "name": "Janvier ",
   "year": "2017",
-  "text": "geoLEARN se classe parmi les 10 meilleures équipes du concours SEG Machine Learning, un concours style Kaggle utilisant des données géophysiques.",
+  "text": "Geolearn se classe parmi les 10 meilleures équipes du concours SEG Machine Learning, un concours style Kaggle utilisant des données géophysiques.",
   "date": 02,
   "y": Math.random() * (3.5 - (1.5)) + (1.5),
   "y0": 0,
@@ -45,7 +45,7 @@ var data = [{
 }, {
   "name": "Mars ",
   "year": "2017",
-  "text": "geoLEARN a été sélectionné comme semi-finaliste pour la vitrine #DisruptMining où nous avons eu l'opportunité de présenter la plate-forme Augmented Intelligent Mining (AIM).",
+  "text": "Geolearn a été sélectionné comme semi-finaliste pour la vitrine #DisruptMining où nous avons eu l'opportunité de présenter la plate-forme Augmented Intelligent Mining (AIM).",
   "date": 04,
   "y": Math.random() * (-1.5 - (-2.5)) + (-2.5),
   "y0": 0,
@@ -61,7 +61,7 @@ var data = [{
 }, {
   "name": "Juin ",
   "year": "2017",
-  "text": "geoLEARN obtient son premier contrat de service.",
+  "text": "Geolearn obtient son premier contrat de service.",
   "date": 06,
   "y": Math.random() * (3.5 - (1.5)) + (1.5),
   "y0": 0,
@@ -79,7 +79,7 @@ var data = [{
 // }, {
 //   "name": "September ",
 //   "year": "2017",
-//   "text": "geoLEARN starts collaborating with Geotic.",
+//   "text": "Geolearn starts collaborating with Geotic.",
 //   "date": 09,
 //   "y": Math.random() * (-1.5 - (-2.5)) + (-2.5),
 //   "y0": 0,

@@ -13,7 +13,7 @@ var margin = {
 var data = [{
   "name": "November ",
   "year": "2016",
-  "text": "Machine learning and geoscientist enthusiasts, Martin Blouin, Antoine Caté and Lorenzo Perozzi join together to found geoLEARN.",
+  "text": "Machine learning and geoscientist enthusiasts, Martin Blouin, Antoine Caté and Lorenzo Perozzi join together to found Geolearn.",
   "date": -1,
   "y": Math.random() * (-1.5 - (-2.5)) + (-2.5),
   "y0": 0,
@@ -22,14 +22,14 @@ var data = [{
   "offset": "33%",
   "color": "#3498db",
   'delay': 0,
-  "desc1": 'geoLEARN',
+  "desc1": 'Geolearn',
   "desc2": 'was founded',
   "year1":'2016',
   "credits":'Hover the circle with the mouse to see details'
 }, {
   "name": "January ",
   "year": "2017",
-  "text": "geoLEARN ranks among the top 10 teams on the SEG Machine Learning contest, a Kaggle-style contest using geophysical data.",
+  "text": "Geolearn ranks among the top 10 teams on the SEG Machine Learning contest, a Kaggle-style contest using geophysical data.",
   "date": 02,
   "y": Math.random() * (3.5 - (1.5)) + (1.5),
   "y0": 0,
@@ -45,7 +45,7 @@ var data = [{
 }, {
   "name": "March ",
   "year": "2017",
-  "text": "geoLEARN was selected as a semi-finalist for the #DisruptMining showcase where we had the opportunity to present the Augmented Intelligent Mining (AIM) platform.",
+  "text": "Geolearn was selected as a semi-finalist for the #DisruptMining showcase where we had the opportunity to present the Augmented Intelligent Mining (AIM) platform.",
   "date": 04,
   "y": Math.random() * (-1.5 - (-2.5)) + (-2.5),
   "y0": 0,
@@ -61,7 +61,7 @@ var data = [{
 }, {
   "name": "June ",
   "year": "2017",
-  "text": "geoLEARN obtain his first service contract.",
+  "text": "Geolearn obtain his first service contract.",
   "date": 06,
   "y": Math.random() * (3.5 - (1.5)) + (1.5),
   "y0": 0,
@@ -79,7 +79,7 @@ var data = [{
 // }, {
 //   "name": "September ",
 //   "year": "2017",
-//   "text": "geoLEARN starts collaborating with Geotic.",
+//   "text": "Geolearn starts collaborating with Geotic.",
 //   "date": 09,
 //   "y": Math.random() * (-1.5 - (-2.5)) + (-2.5),
 //   "y0": 0,
