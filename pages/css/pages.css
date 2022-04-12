@@ -1924,8 +1924,8 @@ hr.dotted {
   background-color: #626262;
 }
 .bg-master-light {
-  background-color: #e6e6e6;
-}
+  background-color: #E3D8CA; /* géostack sable */
+} 
 .bg-master-lighter {
   background-color: #f0f0f0;
 }
@@ -1936,7 +1936,7 @@ hr.dotted {
   background-color: #2c2c2c;
 }
 .bg-master-darker {
-  background-color: #1a1a1a;
+  background-color: #181818  /* géostack neutral black */
 }
 .bg-master-darkest {
   background-color: #121212;
