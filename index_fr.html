@@ -99,6 +99,71 @@
       display: inline-block;
       color: #966136;
     }
+   /*!---------- GEOLARN NEW ----------*/
+  .mb32 {margin-bottom: 32px;}
+  .mb-xs-24 {margin-bottom: 24px;}
+  .mb64 {margin-bottom: 64px;}
+  .fade-1-4{ opacity: 0.75;}
+  
+  /*!---------- SLIDERS ----------*/
+  .widget .image-slider {
+    margin: 0;
+  }
+  .image-slider {
+    position: relative;
+  }
+  .image-slider .slides {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-slider .slides li {
+    position: relative;
+  }
+  .image-slider .slides li > img {
+    width: 100%;
+  }
+  .row .image-slider {
+    margin-bottom: 24px;
+  }
+  .image-slider.height-70 .slides li {
+    height: 70vh;
+    min-height: 600px;
+  }
+  @media all and (max-width: 767px) {
+    .image-slider.height-70 .slides li {
+      height: auto;
+      min-height: none;
+      padding: 80px 0;
+    }
+    .image-slider.height-70 .v-align-transform {
+      top: 0;
+      transform: none;
+      -webkit-transform: none;
+    }
+  }
+  .parallax > .background-image-holder,
+  .parallax .slides li > .background-image-holder {
+    height: 100vh;
+    top: -50vh;
+    transition: all 0s ease !important;
+    transition: opacity 0.3s ease !important;
+    -webkit-transform-style: preserve-3d;
+  }
+  .parallax:first-child .slides li > .background-image-holder,
+  .parallax:first-child .background-image-holder {
+    top: 0;
+  }
+  .main-container > a:first-child + .parallax .background-image-holder {
+    top: 0;
+  }
+  @media all and (max-width: 767px) {
+    .parallax > .background-image-holder,
+    .parallax .slides li > .background-image-holder {
+      top: 0 !important;
+      transform: none !important;
+      -webkit-transform: none !important;
+    }
+  }
   </style>
 
   <body class="pace-dark">
@@ -226,6 +291,7 @@
                       <h1 class="bold sm-text-center" data-swiper-parallax="-15%">Notre offre</h1>
                   </div>
               </div>
+
               <div class="row">
                   <div class="col-sm-6">
                       <div class="feature feature-1 boxed">
@@ -256,6 +322,7 @@
                       </div>
                       <!--end of feature-->
                   </div>
+
                   <div class="col-sm-6">
                       <div class="feature feature-1 boxed">
                           <div class="text-center">
@@ -363,7 +430,7 @@
       <!-- END ACHIEVEMENTS SECTION -->
       
       <!-- BEGIN ABOUT SECTION -->
-      <section class="bg-master-light p-b-85 p-t-85 no-overflow" id="about">
+      <section class="bg-master-lighter p-b-85 p-t-85 no-overflow" id="about">
           <div class="container">
               <div class="row mb64 mb-xs-24">
                   <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
