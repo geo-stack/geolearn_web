@@ -1787,11 +1787,13 @@ label.inline {
   top: 0px;
   font-size: 13px;
 }
+/* This is causing problems with the image slider
 ul > li,
 ol > li {
   padding-left: 3px;
   line-height: 24px;
 }
+*/
 ul.lg-icon > li,
 ol.lg-icon > li {
   font-size: 21px;
