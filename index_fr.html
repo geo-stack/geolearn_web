@@ -99,10 +99,20 @@
       color: #966136;
     }
    /*!---------- GEOLARN NEW ----------*/
+   .mb16 {margin-bottom: 16px;}
   .mb32 {margin-bottom: 32px;}
-  .mb-xs-24 {margin-bottom: 24px;}
   .mb64 {margin-bottom: 64px;}
   .fade-1-4{ opacity: 0.75;}
+  .mt80 {margin-top: 80px;}
+  .mt0 {margin-top: 0px;}
+
+  @media all and (max-width: 990px) {
+    .mt-xs-80 {margin-top: 80px;}
+    .mt-xs-32 {margin-top: 32px;}
+    .mb-xs-24 {margin-bottom: 24px;}
+    .mt-xs-0 {margin-top: 0px;}
+    .text-left-xs {text-align: left;}
+  }
 
   /*!---------- SERVICES BOXES ----------*/
   .feature.boxed {
@@ -126,9 +136,7 @@
   }
   @media all and (max-width: 767px) {
     .feature.boxed,
-    .feature.bordered {
-      padding: 24px;
-    }
+    .feature.bordered {padding: 24px;}
   }
   
   /*!---------- SLIDERS ----------*/
@@ -415,29 +423,35 @@
                   </div>
 
                   <div class="col-md-3 col-md-pull-6">
-                      <div class="mt80 mt-xs-80 text-right text-left-xs">
-                          <h5 class="uppercase bold mb16">Analyse de données sismique</h5>
-                          <p class="fade-1-4">
-                              classification automatique de faciès, clustering 2D/3D, interpretation automatique de failles/fractures, inversion stochastique bayésienne et plus
+                      <div class="mt0 mt-xs-80">
+                          <h5 class="uppercase bold mb16 text-left-xs">Analyse de données sismique</h5>
+                          <p class="fade-1-4 text-left-xs">
+                              classification automatique de faciès, clustering
+                              2D/3D, interpretation automatique de failles/fractures,
+                              inversion stochastique bayésienne et plus
                           </p>
                       </div>
-                      <div class="mt80 mt-xs-0 text-right text-left-xs">
-                          <h5 class="uppercase bold mb16">Analyse des diagraphies de forage</h5>
-                          <p class="fade-1-4">
-                              prédiction de diagraphies, clustering, classification automatique des faciès et plus
+                      <div class="mt80 mt-xs-32">
+                          <h5 class="uppercase bold mb16 text-left-xs">Analyse des diagraphies de forage</h5>
+                          <p class="fade-1-4 text-left-xs">
+                              prédiction de diagraphies, clustering, classification
+                              automatique des faciès et plus
                           </p>
                       </div>
                   </div>
 
                   <div class="col-md-3">
-                      <div class="mt80 mt-xs-0">
+                      <div class="mt0 mt-xs-32">
                           <h5 class="uppercase bold mb16">
                               Analyse d'images géophysique aéroportée</h5>
                           <p class="fade-1-4">
-                              augmentation de la resolution des cartes geophysiques aéroportées par IA; extraction des images d'intêret par apprentissage profond et plus
+                              augmentation de la resolution des cartes geophysiques
+                              aéroportées par IA; extraction des images d'intêret par
+                              apprentissage profond et plus
                           </p>
                       </div>
-                      <div class="mt80 mt-xs-0">
+
+                      <div class="mt80 mt-xs-32">
                           <h5 class="uppercase bold mb16">Applications développés</h5>
                           <p class="fade-1-4">
                               <a href="geolearn.ai/en/predikor">Predikor</a> (description automatique des images de carottes de forages), <strong style="color: #26a0da;"> Unbox</strong> (linéarisation automatique des photos des forages)
