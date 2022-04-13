@@ -216,7 +216,7 @@ body.pace-white .pace .pace-progress {
   background: #ffffff;
 }
 .header.dark {
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: #181818;
 }
 .header.dark .menu > li > a:not(.btn) {
   color: #ffffff;
@@ -305,10 +305,10 @@ body.pace-white .pace .pace-progress {
   display: inline-block;
 }
 .header.bg-header {
-  height: 110px;
+  height: 90px;
 }
 .header.bg-header .header-inner {
-  line-height: 110px;
+  line-height: 90px;
 }
 .header.bg-header .menu-toggler {
   margin-top: 47.5px;
@@ -332,10 +332,10 @@ body.pace-white .pace .pace-progress {
   margin-top: 14.5px;
 }
 .header.minimized {
-  height: 60px !important;
+  height: 90px !important;
 }
 .header.minimized .header-inner {
-  line-height: 60px !important;
+  line-height: 90px !important;
 }
 .header.minimized .logo {
   display: none;
@@ -344,7 +344,7 @@ body.pace-white .pace .pace-progress {
   display: inline-block;
 }
 .header.minimized .menu-toggler {
-  margin-top: 22.5px !important;
+  margin-top: 27.5px !important;
 }
 .header.minimized .menu > li > a:before {
   max-width: 0 !important;
@@ -8486,6 +8486,12 @@ sup.dollar {
   }
   .header.bg-header .menu-toggler {
     margin-top: 27.5px;
+  }
+  .header.minimized {
+    height: 70px !important;
+  }
+  .header.minimized .header-inner {
+    line-height: 70px !important;
   }
   .header.md-header {
     height: 88px;
