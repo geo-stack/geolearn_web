@@ -105,19 +105,9 @@
   .fade-1-4{ opacity: 0.75;}
 
   /*!---------- SERVICES BOXES ----------*/
-  .col-sm-6 {width: 50%;}
   .feature.boxed {
     padding: 32px;
-    background: #E3D8CA;
-  }
-  .feature.boxed.bg-dark {
-    background: #292929;
-  }
-  .bg-dark .feature.boxed {
-    background: #363636;
-  }
-  .bg-secondary .feature.boxed {
-    background: #fff;
+    background: #E3D8CA; /* géostack Sable */
   }
   .feature.bordered {
     padding: 32px;
@@ -129,21 +119,16 @@
   .feature p:last-child {
     margin-bottom: 0;
   }
+  .feature-1 i {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #966136; /* géostack Terre */
+  }
   @media all and (max-width: 767px) {
     .feature.boxed,
     .feature.bordered {
       padding: 24px;
     }
-  }
-  @media all and (max-width: 990px) {
-    .feature .icon-lg {
-      font-size: 40px;
-    }
-  }
-  .feature-1 i {
-    display: inline-block;
-    margin-bottom: 16px;
-    color: #966136; /* géostack Terre */
   }
   
   /*!---------- SLIDERS ----------*/
@@ -180,29 +165,6 @@
       top: 0;
       transform: none;
       -webkit-transform: none;
-    }
-  }
-  .parallax > .background-image-holder,
-  .parallax .slides li > .background-image-holder {
-    height: 100vh;
-    top: -50vh;
-    transition: all 0s ease !important;
-    transition: opacity 0.3s ease !important;
-    -webkit-transform-style: preserve-3d;
-  }
-  .parallax:first-child .slides li > .background-image-holder,
-  .parallax:first-child .background-image-holder {
-    top: 0;
-  }
-  .main-container > a:first-child + .parallax .background-image-holder {
-    top: 0;
-  }
-  @media all and (max-width: 767px) {
-    .parallax > .background-image-holder,
-    .parallax .slides li > .background-image-holder {
-      top: 0 !important;
-      transform: none !important;
-      -webkit-transform: none !important;
     }
   }
   </style>
