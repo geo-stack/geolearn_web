@@ -344,7 +344,7 @@ body.pace-white .pace .pace-progress {
   display: inline-block;
 }
 .header.minimized .menu-toggler {
-  margin-top: 27.5px !important;
+  margin-top: 37.5px !important;
 }
 .header.minimized .menu > li > a:before {
   max-width: 0 !important;
@@ -8492,6 +8492,9 @@ sup.dollar {
   }
   .header.minimized .header-inner {
     line-height: 70px !important;
+  }
+  .header.minimized .menu-toggler {
+    margin-top: 27.5px !important;
   }
   .header.md-header {
     height: 88px;
