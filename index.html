@@ -1,33 +1,37 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Geolearn | Enhancing geodata with artificial intelligence</title>
-    <meta name="description" content="You want to reinterpret your data to gain better insights into your business? You have a huge amount of geoscientific data you want to exploit at its full potential? You want to discover hidden patterns in your data? You want to make predictions in 2D and 3D space?
-    Together we can make it happen!">
+    <title>Geolearn - Enhancing geoscience data with artificial intelligence</title>
+    <meta name="description" content="Do you want to reinterpret your data to better understand their potential? Do you have a large amount of geoscientific data that you want to exploit to its full potential? Want to uncover hidden patterns in your data? Want to make 2D and 3D predictions? Together we can do it!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta content="" name="author" />
+
     <link rel="apple-touch-icon" href="pages/ico/60.png">
     <link rel="apple-touch-icon" sizes="76x76" href="pages/ico/76.png">
     <link rel="apple-touch-icon" sizes="120x120" href="pages/ico/120.png">
     <link rel="apple-touch-icon" sizes="152x152" href="pages/ico/152.png">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta content="" name="description" />
-    <meta content="" name="author" />
+
     <!-- BEGIN PLUGINS -->
     <link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <link href="assets/plugins/swiper/css/swiper.css" rel="stylesheet" type="text/css" media="screen" />
     <!-- END PLUGINS -->
+
     <!-- BEGIN PAGES CSS -->
+    <link href="assets/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link class="main-stylesheet" href="pages/css/pages.css" rel="stylesheet" type="text/css" />
     <link class="main-stylesheet" href="pages/css/pages-icons.css" rel="stylesheet" type="text/css" />
-    <link class="main-stylesheet" href="pages/css/famfamfam-flags.css" rel="stylesheet" type="text/css" />
-    <!-- GOOGLE ANALYTICS TRACKING CODE -->
+    <link class="main-stylesheet" href="pages/css/themify-icons.css" rel="stylesheet" type="text/css" />
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -37,103 +41,196 @@
       ga('create', 'UA-96913087-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <!-- BEGIN PAGES CSS -->
   </head>
+
   <style>
-  /*#####################
-Additional Styles (required)
-#####################*/
-/*.carousel-caption {
-  width:30%;
-  left:5%;
-	right:0;
-	bottom:20;
-	text-align:center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-	padding-left: 20px;
-  padding-right: 20px;
+    h4.news  {
+      color: #966136;
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+    h4.news  span{
+      color: #966136;
+      font-size: 0.6em;
+      font-weight: 500;
+    }
+    a.news  {
+      color: #966136;
+      /*font-size: 0.6em;
+      font-weight: 500;*/
+    }
+    a.news2  {
+      color: #d1b281;
+      /*font-size: 0.6em;
+      font-weight: 500;*/
+    }
+    a.footer_text {
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        color: #E3D8CA;
+        }
+    a.footer_text:hover {
+        color: #966136;
+        }
+    h4.news2  {
+      color: #d1b281;
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+    h4.news2  span{
+      color: #d1b281;
+      font-size: 0.6em;
+      font-weight: 500;
+    }
+    h4.offre {
+      color: #966136;
+      font-weight: 600;
+    }
+    p.offre {
+       color: #181818;
+       font-weight: 400;
+       hyphens: auto;
+       text-align: justify;
+       text-justify: inter-word;
+    }
+    p.achiev{
+        color: #181818;
+        font-weight: 400;
+        text-align: left;
+    }
+    p.about{
+        color: #181818;
+        font-weight: 400;
+        text-align: center;
+    }
+    p.footer_text{
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        color: #E3D8CA;
+    }
+    .textContainer {
+        height: 345px;
+        line-height: 340px;
+    }
 
-	text-shadow:none;
+    .textContainer p {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .textContainer p span{
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 31px;
+        font-weight: 300;
+        line-height: 42px;
+        font-family: 'Open Sans', sans-serif;
+        color: #2c2c2c;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .icon {
+      font-size: 64px;
+      display: inline-block;
+      color: #966136;
+    }
+    /*!---------- GEOLARN NEW ----------*/
+    .mb16 {margin-bottom: 16px;}
+    .mb32 {margin-bottom: 32px;}
+    .mb64 {margin-bottom: 64px;}
+    .mt80 {margin-top: 80px;}
+    .mt0 {margin-top: 0px;}
 
-}*/
+    @media all and (max-width: 990px) {
+      .mt-xs-80 {margin-top: 80px;}
+      .mt-xs-32 {margin-top: 32px;}
+      .mb-xs-24 {margin-bottom: 24px;}
+      .mt-xs-0 {margin-top: 0px;}
+      .text-left-xs {text-align: left;}
+    }
 
-h4.news  {
-  color: #B18642;
-  font-size: 1.2em;
-  font-weight: 500;
-}
-h4.news  span{
-  color: #B18642;
-  font-size: 0.6em;
-  font-weight: 500;
-}
-
-a.news  {
-  color: #B18642;
-  /*font-size: 0.6em;
-  font-weight: 500;*/
-}
-h4.news2  {
-  color: #d1b281;
-  font-size: 1.2em;
-  font-weight: 500;
-}
-h4.news2  span{
-  color: #d1b281;
-  font-size: 0.6em;
-  font-weight: 500;
-}
-
-a.news2  {
-  color: #d1b281;
-  /*font-size: 0.6em;
-  font-weight: 500;*/
-}
-
-
-.textContainer {
-    height: 345px;
-    line-height: 340px;
-}
-
-.textContainer p {
-    vertical-align: middle;
+  /*!---------- SERVICES BOXES ----------*/
+  .feature.boxed {
+    padding: 32px;
+    background: #E3D8CA; /* géostack Sable */
+  }
+  .feature.bordered {
+    padding: 32px;
+    border: 1px solid #ccc;
+  }
+  .feature {
+    margin-bottom: 24px;
+  }
+  .feature p:last-child {
+    margin-bottom: 0;
+  }
+  .feature-1 i {
     display: inline-block;
-}
+    margin-bottom: 16px;
+    color: #966136; /* géostack Terre */
+  }
+  @media all and (max-width: 767px) {
+    .feature.boxed,
+    .feature.bordered {padding: 24px;}
+  }
 
-.textContainer p span{
-    vertical-align: middle;
-    display: inline-block;
-    font-size: 31px;
-    font-weight: 300;
-    line-height: 42px;
-    font-family: 'Open Sans', sans-serif;
-    color: #2c2c2c;
-    margin-bottom: 20px;
-    margin-top: 5px;
-}
+  /*!---------- SLIDERS ----------*/
+  .widget .image-slider {
+    margin: 0;
+  }
+  .image-slider {
+    position: relative;
+  }
+  .image-slider .slides {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-slider .slides li {
+    position: relative;
+  }
+  .image-slider .slides li > img {
+    width: 100%;
+  }
+  .row .image-slider {
+    margin-bottom: 24px;
+  }
+  .image-slider.height-70 .slides li {
+    height: 70vh;
+    min-height: 600px;
+  }
+  @media all and (max-width: 767px) {
+    .image-slider.height-70 .slides li {
+      height: auto;
+      min-height: none;
+      padding: 80px 0;
+    }
+    .image-slider.height-70 .v-align-transform {
+      top: 0;
+      transform: none;
+      -webkit-transform: none;
+    }
+  }
   </style>
-  <body class="pace-dark">
 
+  <body class="pace-dark">
     <!-- BEGIN HEADER -->
     <nav class="header bg-header transparent-dark " data-pages="header" data-pages-header="autoresize" data-pages-resize-class="dark">
       <div class="container relative">
+
         <!-- BEGIN LEFT CONTENT -->
         <div class="pull-left">
           <!-- .header-inner Allows to vertically Align elements to the Center-->
           <div class="header-inner">
             <!-- BEGIN LOGO -->
             <img src="assets/images/logo_header_1line_new_new.png" width="152" height="49" data-src-retina="assets/images/logo_header_1line_2x_new_new.png" class="logo" alt="">
-
             <img src="assets/images/logo_header_1line_white_new_new.png" width="152" height="49" data-src-retina="assets/images/logo_header_1line_white_2x_new_new.png" class="alt" alt="">
-
+            <!-- END LOGO -->
           </div>
         </div>
+        <!-- END LEFT CONTENT -->
+
         <!-- BEGIN HEADER TOGGLE FOR MOBILE & TABLET -->
         <div class="pull-right">
           <div class="header-inner">
-            <a href="#" class="search-toggle visible-sm-inline visible-xs-inline p-r-10" data-toggle="search"><i class="fs-14 pg-search"></i></a>
             <div class="visible-sm-inline visible-xs-inline menu-toggler pull-right p-l-10" data-pages="header-toggle" data-pages-element="#header">
               <div class="one"></div>
               <div class="two"></div>
@@ -142,6 +239,7 @@ a.news2  {
           </div>
         </div>
         <!-- END HEADER TOGGLE FOR MOBILE & TABLET -->
+
         <!-- BEGIN RIGHT CONTENT -->
         <div class="menu-content mobile-dark pull-right clearfix" data-pages-direction="slideRight" id="header">
           <!-- BEGIN HEADER CLOSE TOGGLE FOR MOBILE -->
@@ -151,32 +249,33 @@ a.news2  {
             </a>
           </div>
           <!-- END HEADER CLOSE TOGGLE FOR MOBILE -->
+
           <!-- BEGIN MENU ITEMS -->
           <div class="header-inner">
             <ul class="menu">
               <li>
-                <a href="index.html" class="active">Home </a>
+                <a href="index.html">Home </a>
               </li>
               <li>
-                <a class="page-scroll" href="#services">Services </a>
+                <a class="page-scroll" href="#services">Our offer</a>
               </li>
               <li>
-                <a href="contact.html">About Us </a>
+                <a class="page-scroll" href="#achiev">Achievements</a>
               </li>
-              <!-- <li>
-                <a href="blog.html">Blog </a>
-              </li> -->
+              <li>
+                <a class="page-scroll" href="#about">About</a>
+              </li>
+              <li>
+                <a href="mailto:info@geostack.ca?subject=Solutions Geolearn">Contact-us</a>
+              </li>
               <li>
                 <a href="index_fr.html">FR</a>
               </li>
-              <!-- <li>
-                <a href="contact.html">Contact Us</a>
-              </li> -->
             </ul>
-            <a href="#" class="search-toggle hidden-xs hidden-sm" data-toggle="search"><i class="fs-14 pg-search"></i></a>
+
             <!-- BEGIN COPYRIGHT FOR MOBILE -->
             <div class="font-arial m-l-35 m-r-35 m-b-20 visible-sm visible-xs m-t-20">
-              <p class="fs-11 small-text muted">Copyright &copy Géostack; 2017-2022</p>
+              <p class="fs-11 small-text muted">Copyright &copy Geostack; 2017-2022</p>
             </div>
             <!-- END COPYRIGHT FOR MOBILE -->
           </div>
@@ -185,6 +284,7 @@ a.news2  {
       </div>
     </nav>
     <!-- END HEADER -->
+
     <div class="page-wrappers">
       <!-- BEGIN JUMBOTRON -->
       <section class="jumbotron full-vh" data-pages="parallax">
@@ -194,6 +294,7 @@ a.news2  {
             <div class="swiper-wrapper">
               <!-- BEGIN SLIDE -->
               <div class="swiper-slide fit">
+
                 <!-- BEGIN IMAGE PARRALAX -->
                 <div class="slider-wrapper">
                   <div class="background-wrapper" data-swiper-parallax="30%">
@@ -202,6 +303,7 @@ a.news2  {
                   </div>
                 </div>
                 <!-- END IMAGE PARRALAX -->
+
                 <!-- BEGIN CONTENT -->
                 <div class="content-layer">
                   <div class="inner full-height">
@@ -209,11 +311,13 @@ a.news2  {
                       <div class="col-xs-height col-middle text-left">
                         <div class="container">
                           <div class="col-md-6 no-padding col-xs-10 col-xs-offset-1">
-                            <h1 class="bold sm-text-center" data-swiper-parallax="-15%"> Geodata, enhanced!</h1>
-                            <h4 class="semi-bold sm-text-center">At Geolearn, we focus on your goals and explore hidden patterns to gain better insight on your data</h4>
+                            <h1 class="bold mb32 sm-text-center" data-swiper-parallax="-15%">Enhancing geoscientific data</h1>
+                            <h4 class="semi-bold mb64 sm-text-center">Artificial intelligence services and tailor-made software solutions to solve your specific problems and allow you to better understand and enhance your data. </h4>
                             <h4 class="news" >
-                              <img alt="" class="m-b-20" src="assets/images/Prizemedalion1.png" style=" vertical-align: middle;">
-                              semifinalist at #DisruptMining 2017 <span class="news"><a href="DisruptMining.html" class="news">read more... </a></span></h4>
+                              <i class="ti-announcement" style="vertical-align: middle; font-size: 1.2em; font-weight: 500;"></i>
+                              &nbsp;Geostack member since April 2022
+                              <span class="news"><a href="https://www.geostack.ca/" class="news">learn more... </a></span>
+                            </h4>
                           </div>
                         </div>
                       </div>
@@ -221,365 +325,259 @@ a.news2  {
                   </div>
                 </div>
                 <!-- END CONTENT -->
+
               </div>
-              <!-- END SLIDE -->
-              <!-- BEGIN SLIDE -->
-              <!-- <div class="swiper-slide fit"> -->
-                <!-- BEGIN IMAGE PARRALAX -->
-                <!-- <div class="slider-wrapper">
-                  <div class="background-wrapper" data-swiper-parallax="30%">
-                    <div data-pages-bg-image="assets/images/open_mine_1.jpg" draggable="false" class="background"></div>
-                  </div>
-                </div> -->
-                <!-- END IMAGE PARRALAX -->
-                <!-- BEGIN CONTENT -->
-                <!-- <div class="content-layer">
-                  <div class="inner full-height">
-                    <div class="container-xs-height full-height">
-                      <div class="col-xs-height col-middle text-left">
-                        <div class="container">
-                          <div class="col-md-6 no-padding col-xs-10 col-xs-offset-1">
-                            <h1 class="light sm-text-center" data-swiper-parallax="-15%"> Geodata, enhanced.</h1>
-                            <h4 class="sm-text-center">We focus on your goals and explore hidden patterns to gain better insight on your data</h4>
-                            <h4 class="news">
-                              <img alt="" class="m-b-20" src="assets/images/Prizemedalion1.png" style=" vertical-align: middle;">
-                              semifinalist at #DisruptMining 2017 <span class="news"><a href="DisruptMining.html" class="news">read more... </a></span></h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- END CONTENT -->
-              <!-- </div> -->
-              <!-- END SLIDE -->
-              <!-- BEGIN SLIDE -->
-              <!-- <div class="swiper-slide fit"> -->
-                <!-- BEGIN IMAGE PARRALAX -->
-                <!-- <div class="slider-wrapper">
-                  <div class="background-wrapper" data-swiper-parallax="30%" >
-                    <div data-pages-bg-image="assets/images/oilfield_2.jpg" draggable="false" class="background" ></div>
-                  </div>
-                </div> -->
-                <!-- END IMAGE PARRALAX -->
-                <!-- BEGIN CONTENT -->
-                <!-- <div class="content-layer">
-                  <div class="inner full-height">
-                    <div class="container-xs-height full-height">
-                      <div class="col-xs-height col-middle text-left">
-                        <div class="container">
-                          <div class="col-md-6 no-padding col-xs-10 col-xs-offset-1">
-                            <h1 class="light sm-text-center" data-swiper-parallax="-15%"> <span>Geodata, enhanced.</span></h1>
-                            <h4 class="sm-text-center"><span>We focus on your goals and explore hidden patterns to gain better insight on your data</span></h4>
-                            <h4 class="news">
-                              <img alt="" class="m-b-20" src="assets/images/Prizemedalion1.png" style=" vertical-align: middle;">
-                              semifinalist at #DisruptMining 2017 <span class="news"><a href="DisruptMining.html" class="news">read more... </a></span></h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- END CONTENT -->
-              <!-- </div> -->
-              <!-- END SLIDE -->
-            <!-- </div> -->
-            <!-- BEGIN ANIMATED MOUSE -->
-            <div class="mouse-wrapper">
-              <div class="mouse">
-                <div class="mouse-scroll"></div>
-              </div>
-            </div>
-            <!-- Add Navigation -->
-            <!-- <div class="swiper-navigation swiper-dark-solid swiper-button-prev auto-reveal"></div>
-            <div class="swiper-navigation swiper-dark-solid swiper-button-next auto-reveal"></div> -->
           </div>
         </div>
         <!-- END SLIDER -->
       </section>
       <!-- END JUMBOTRON -->
 
+      <!-- BEGIN SERVICES SECTION -->
+      <section class="bg-master-lightest p-b-85 p-t-85 no-overflow" id="services">
+          <div class="container">
 
-
-
-
-
-
-      <!-- BEGIN CONTENT SECTION -->
-      <section class="bg-master-lighter p-b-85 p-t-85 no-overflow" id="services">
-        <div class="container">
-          <div class="md-p-l-20 md-p-r-20  xs-no-padding">
-            <div class="row">
-              <div class="col-sm-5 textContainer"  >
-                <p class="m-b-20"><span>Comprehensive Data Integration</span><br>At Geolearn, we know how expensive data acquisition is. That is why we go the extra mile to ensure that their added value is accounted for and highlighted through feature engineering. Geological, geochemical and geophysical data are all integrated together in a connected database.</p>
-              </div>
-              <div class="col-sm-7 p-t-30 xs-p-l-15 xs-p-r-15 textContainer" >
-                <img src="assets/images/int.png" class="image-responsive-height lazy center-block" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END CONTENT SECTION -->
-
-      <!-- BEGIN CONTENT SECTION -->
-      <section class="bg-master-lightest p-b-85 p-t-75 no-overflow">
-        <div class="container">
-          <div class="md-p-l-20 md-p-r-20 xs-no-padding">
-            <!-- <h5 class="block-title hint-text no-margin">MENU CLIPPING</h5> -->
-            <div class="row">
-              <div class="col-sm-7 p-t-30 xs-p-l-15 xs-p-r-15 " >
-                <img src="assets/images/pred.png" class="image-responsive-height lazy center-block" alt="">
-              </div>
-
-
-              <div class="col-sm-5 textContainer"  >
-                <!-- <h2 class="m-t-5 m-b-20">Comprehensive Data Integration</h2> -->
-                <p class="m-b-20"><span>Robust Predictive Analysis</span><br>From something as simple and cheap as core pictures to more complex geochemical and geophysical data, Geolearn is able to train their algorithms to recognize patterns and automatically identify key features such as lithologies, alteration and mineralization.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END CONTENT SECTION -->
-
-      <!-- BEGIN CONTENT SECTION -->
-      <section class="bg-master-lighter p-b-85 p-t-85 no-overflow">
-        <div class="container">
-          <div class="md-p-l-20 md-p-r-20  xs-no-padding">
-            <div class="row">
-              <div class="col-sm-5 textContainer"  >
-                <p class="m-b-20"><span>Enhanced Visualization</span><br>To be relevant, high-value information needs to be presented in an effective, understandable & beautiful way. Geolearn creates connected, portable and interactive solutions to visualize your content derived from predictions or raw data.</p>
-              </div>
-              <div class="col-sm-7 p-t-30 xs-p-l-15 xs-p-r-15 " >
-                <img src="assets/images/vis.png" class="image-responsive-height lazy center-block" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END CONTENT SECTION -->
-
-
-
-
-
-
-
-      <!-- BEGIN CONTENT SECTION -->
-      <!-- <section class="p-b-85 p-t-75 bg-master-lighter">
-        <div class="container">
-          <div class="md-p-l-20 xs-no-padding clearfix">
-            <div class="row visible-sm">
-              <div class="col-sm-8 m-b-40">
-                <h2>Save time, save money, look more professional and win more clients.</h2>
-                <p class="hint-text font-arial small-text col-md-4 col-sm-6 no-padding">Via Senior Vice President Design REVOX Ltd. 12345</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-sm-4">
-                <div class="device_morph" data-pages="auto-scroll">
-                  <img alt="" class="xs-image-responsive-height image-responsive-width" src="assets/images/b_phone.png" id="mobile_phone">
-                  <div class="screen">
-                    <div class="iphone-border">
-                      <img src="assets/images/mobile_preview.jpg" class="image-responsive-height lazy" alt="">
-                    </div>
+              <div class="row mb32 mb-xs-24">
+                  <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                      <h1 class="bold sm-text-center" data-swiper-parallax="-15%">Our offer</h1>
                   </div>
-                </div>
               </div>
-              <div class="col-md-7 col-md-offset-1  col-sm-offset-2 col-sm-6">
-                <div class="clearfix hidden-sm">
-                  <h2>Save time, save money, look more professional and win more clients.</h2>
-                  <p class="hint-text font-arial small-text col-md-4 col-sm-6 no-padding">Via Senior Vice President Design REVOX Ltd. 12345</p>
-                </div>
-                <div class="col-md-9 col-md-offset-1 col-sm-11">
-                  <div class="p-t-50">
-                    <dl>
-                      <dt class="block-title p-b-15 text-black">Launch Design <i class="pg-arrow_right m-l-10"></i></dt>
-                      <dd class="m-b-30">Our long standing vision has been to bypass the usual admin dashboard structure, and move forward with a more sophisticated yet simple framework</dd>
-                    </dl>
-                    <dl>
-                      <dt class="block-title p-b-15 text-black">Responsive <i class="pg-arrow_right m-l-10"></i></dt>
-                      <dd class="m-b-30">Our long standing vision has been to bypass the usual admin dashboard structure, and move forward with a</dd>
-                    </dl>
-                    <dl>
-                      <dt class="block-title text-black p-b-15 ">Launch Your Design <i class="pg-arrow_right m-l-10"></i></dt>
-                      <dd class="m-b-30">Our long standing vision has been to bypass the usual admin dashboard structure.</dd>
-                    </dl>
+
+              <div class="row">
+                  <!--BEGIN DATA ANALYSIS-->
+                  <div class="col-sm-6">
+                      <div class="feature feature-1 boxed">
+                          <div class="text-center">
+                              <i class="ti-dashboard icon"></i>
+                              <h4 class="offre">AI-Driven<br class="hidden-xs"> data analysis</h4>
+                          </div>
+                          <p class="offre">
+                            Geolearn uses state-of-the-art technologies
+                            such as deep and shallow learning as well as
+                            geostatistics, to retrieve more information,
+                            recognize hidden patterns and increase the power
+                            of your data so that you can solve the
+                            problems of your geoscience projects.
+                          </p>
+                      </div>
                   </div>
-                </div>
+                  <!--END DATA ANALYSIS-->
+
+                  <!--BEGIN DATA VISUALISATION-->
+                  <div class="col-sm-6">
+                      <div class="feature feature-1 boxed">
+                          <div class="text-center">
+                              <i class="ti-eye icon"></i>
+                              <h4 class="offre">Data<br class="hidden-xs">Visualization</h4>
+                          </div>
+                          <p class="offre">
+                            We offer connected, interactive and portables
+                            solutions to visualize effectively, explicitly
+                            and aestheticly your content from predictions
+                            or raw data.
+                              <span style="color: transparent;">
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                              </span>
+                          </p>
+                      </div>
+                  </div>
+                  <!--END DATA VISUALISATION-->
+
+                  <!--BEGIN SOLUTIONS LOGICIELLES-->
+                  <div class="col-sm-6">
+                      <div class="feature feature-1 boxed">
+                          <div class="text-center">
+                              <i class="ti-bar-chart icon"></i>
+                              <h4 class="offre">Software solutions and<br>data storage</h4>
+                          </div>
+                          <p class="offre">
+                            We produce tailor-made software solutions for
+                            the storage, processing and interpretation of data
+                            including, as needed, relational databases and
+                            interactive visualization interfaces.
+                          </p>
+                      </div>
+                  </div>
+                  <!--END SOLUTIONS LOGICIELLES-->
+
+                  <!--BEGIN TRAINING-->
+                  <div class="col-sm-6">
+                      <div class="feature feature-1 boxed">
+                          <div class="text-center">
+                              <i class="ti-sharethis icon"></i>
+                              <h4 class="offre">Knowledge<br class="hidden-xs"> sharing
+                                  <!-- <br class="hidden-sm" /> crafted with purpose. -->
+                              </h4>
+                          </div>
+                          <p class="offre"">
+                            You have training needs in machine learning,
+                            geostatistics or python programming applied to
+                            geosciences? We can meet your needs,
+                            whether through in-house or online
+                            training courses.
+                          </p>
+                      </div>
+                  </div>
+                  <!--END TRAINING-->
               </div>
-            </div>
+              <!--end of row-->
           </div>
-        </div>
-      </section> -->
-
-
-
-      <!-- END CONTENT SECTION -->
-      <!-- <section class="p-b-85 p-t-75 "> -->
-        <!-- BEGIN TESTIMONIALS SLIDER-->
-        <!-- <div class="swiper-container" id="testimonials_slider">
-          <div class="swiper-wrapper"> -->
-            <!-- BEGIN TESTIMONIAL -->
-            <!-- <div class="swiper-slide">
-              <div class="container">
-                <div class="col-sm-8 col-sm-offset-2">
-                  <h3 class="text-center">
-                            Our motivation "Perfection simplified" helps to
-                            craft meaningful experiences for the people around us, This mission inspires us
-                            to jump out of bed each day and guides every aspect of what we
-                            do.
-                            </h3>
-                  <img alt="" class="m-t-20" src="assets/images/signature_sample.png">
-                </div>
-              </div>
-            </div> -->
-            <!-- END TESTIMONIAL -->
-            <!-- BEGIN TESTIMONIAL -->
-            <!-- <div class="swiper-slide">
-              <div class="container">
-                <div class="col-sm-8 col-sm-offset-2">
-                  <h3 class="text-center">
-                            The dashboard will synergize with the colour selection made by the user and appropriately amend. Similarly, all other elements will sync according to the base colours.
-                            </h3>
-                  <img alt="" class="m-t-20" src="assets/images/signature_sample.png">
-                </div>
-              </div>
-            </div> -->
-            <!-- END TESTIMONIAL -->
-            <!-- BEGIN TESTIMONIAL -->
-            <!-- <div class="swiper-slide">
-              <div class="container">
-                <div class="col-sm-8 col-sm-offset-2">
-                  <h3 class="text-center">
-                            Given our emphasis on operational efficiency and optimization, we have focused heavily on GPU performance with animation to ensure an ultra smooth and fast User Experience.
-                            </h3>
-                  <img alt="" class="m-t-20" src="assets/images/signature_sample.png">
-                </div>
-              </div>
-            </div> -->
-            <!-- END TESTIMONIAL -->
-          <!-- </div> -->
-          <!-- Add Navigation -->
-          <!-- <div class="swiper-pagination relative p-t-20"></div> -->
-        <!-- </div> -->
-        <!-- END TESTIMONIALS -->
+          <!--end of container-->
       </section>
+
+      <!-- BEGIN ACHIEVEMENTS SECTION -->
+      <section class="bg-master-light p-b-85 p-t-85 no-overflow" id="achiev">
+          <div class="container">
+
+              <div class="row mb32 mb-xs-24">
+                  <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                      <h1 class="bold sm-text-center" data-swiper-parallax="-15%">Our achievements</h1>
+                  </div>
+              </div>
+
+              <div class="row">
+
+                  <div class="col-md-6 col-md-push-3 text-center">
+                      <div class="image-slider slider-paging-controls controls-outside">
+                          <ul class="slides">
+                              <li class="mb32">
+                                  <img alt="App" src="assets/images/TFL.gif" />
+                              </li>
+                              <li class="mb32">
+                                  <img alt="App" src="assets/images/Fault_skin.gif" />
+                              </li>
+                              <li class="mb32">
+                                  <img alt="App" src="assets/images/GAN_mag.gif" />
+                              </li>
+                              <li class="mb32">
+                                  <img alt="App" src="assets/images/Logs.gif" />
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3 col-md-pull-6">
+                      <div class="mt0 mt-xs-80">
+                          <h5 class="uppercase bold mb16 text-left-xs">Seismic data analysis</h5>
+                          <p class="achiev text-left-xs">
+                            Automatic facies classification, clustering
+                            2D/3D, automatic interpretation of faults/fractures and
+                            Bayesian stochastic inversion.
+                          </p>
+                      </div>
+                      <div class="mt80 mt-xs-32">
+                          <h5 class="uppercase bold mb16 text-left-xs">wireline logs analysis</h5>
+                          <p class="achiev text-left-xs">
+                            Log prediction, clustering and automated
+                            classification of rock facies.
+                          </p>
+                      </div>
+                  </div>
+
+                  <div class="col-md-3">
+                      <div class="mt0 mt-xs-32">
+                          <h5 class="uppercase bold mb16">
+                              Airborne geophysical data analysis</h5>
+                          <p class="achiev">
+                              Mapping high resolution airborne geophysics
+                              images from low resolution data using AI,
+                              deep learning feature extraction and more
+                          </p>
+                      </div>
+
+                      <div class="mt80 mt-xs-32">
+                          <h5 class="uppercase bold mb16">Geoscience applications</h5>
+                          <p class="achiev">
+                              <strong style="color: #966136;"> Predikor</strong>
+                              (automated description of core pictures,
+                              <strong style="color: #966136;"> Unbox</strong>
+                              (Depth referencing of core images from core box photographs)
+                          </p>
+                      </div>
+                  </div>
+
+              </div>
+              <!--end of row-->
+          </div>
+          <!--end of container-->
+      </section>
+      <!-- END ACHIEVEMENTS SECTION -->
+
+      <!-- BEGIN ABOUT SECTION -->
+      <section class="bg-master-lighter p-b-85 p-t-85 no-overflow" id="about">
+          <div class="container">
+              <div class="row mb64 mb-xs-24">
+                  <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                      <h1 class="bold sm-text-center" data-swiper-parallax="-15%">About</h1>
+                  </div>
+              </div>
+              <p class="about">
+                Founded in 2017 by students from INRS-ETE, Geolearn
+                has developed unique data processing and image analysis routines
+                in the field of geoscience. Considered a leader in innovation,
+                Geolearn launched Predikor in 2018 and hosted several ML workshops
+                throughout Canada. In 2022, Geolearn joined the company Geostack to
+                continue the development of new technologies and the use of
+                artificial intelligence to solve problems in geosciences.
+                <br>
+                <br>
+                <img class="center" src="assets/images/PDAC_4.JPG" alt="PDAC2018" width="700"></p>
+
+          </div>
+
+      </section>
+
       <!-- BEGIN FOOTER -->
-      <!-- <section class="p-b-55 p-t-75 xs-p-b-20 bg-master-darker ">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4 col-xs-12 xs-m-b-40">
-              <img src="assets/images/logo_white.png" width="152" height="21" data-src-retina="assets/images/logo_white_2x.png" class="alt" alt="">
-            </div>
-            <div class="col-sm-2 col-xs-6 xs-m-b-20">
-              <h6 class="font-montserrat text-uppercase fs-14 text-white p-b-10">Company </h6>
-              <ul class="no-style">
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white ">Design</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Features</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Team</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Work Station</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Privacy</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Legal</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Jobs</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-6 xs-m-b-20">
-              <h6 class="font-montserrat text-uppercase fs-14 text-white p-b-10">Work </h6>
-              <ul class="no-style">
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white ">Apps</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white ">Popular</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white ">Web-Arch</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Pages</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Frontend</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Charity</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Marketplaces</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-6 xs-m-b-20">
-              <h6 class="font-montserrat text-uppercase fs-14 text-white p-b-10">Clients </h6>
-              <ul class="no-style">
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white ">Our team</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Our location</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Contact Us</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">About Us</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-2 col-xs-6 xs-m-b-20">
-              <h6 class="font-montserrat text-uppercase fs-14 text-white p-b-10">Pages </h6>
-              <ul class="no-style">
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white ">Pages</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Home</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Tour</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Versions</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Dropdown</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Pricing Page</a></li>
-                <li class="m-b-5 no-padding"><a href="#" class="link text-white">Blog</a></li>
-              </ul>
-            </div>
-          </div>
-          <p class="fs-12 hint-text p-t-10 text-white">Copyright &copy; 2014. All Rights Reserved </p>
-        </div>
-      </section> -->
-      <section class="p-b-55 p-t-75 xs-p-b-20 bg-master-darker ">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="assets/images/logo_header_1line_white_new_new.png" width="152" height="49" data-src-retina="assets/images/logo_header_1line_white_2x_new_new.png" class="alt" alt="">
+      <section class="p-b-25 p-t-15 xs-p-b-20 bg-master-darker">
+          <div class="container">
+            <div class="row">
 
+              <div class="col-sm-6 text-left sm-text-left">
+                <p class="footer_text m-t-5">Copyright &copy; 2017-2022 Geostack. All rights reserved</p>
+              </div>
+
+              <div class="col-sm-6 text-right sm-text-left">
+                <p class="footer_text">
+                  6780 1re avenue, local 135<br class="hidden-sm" />
+                  Québec, QC, Canada<br class="hidden-sm" />
+                  G1H 2W8<br class="hidden-sm" />
+                  <a class="footer_text" href="mailto:info@geostack.ca?subject=Solutions Geolearn">
+                     info@geostack.ca
+                  </a>
+                </p>
+              </div>
+
+            </div>
+            <!-- END ROW -->
           </div>
-          <div class="col-sm-6 text-right font-arial sm-text-left text-white">
-            <p class="fs-11 muted m-t-5">Copyright &copy; 2017-2022 Géostack. All Rights Reserved</p>
-          </div>
-        </div>
-      </div>
-    </section>
+          <!-- END CONTAINER -->
+      </section>
       <!-- END FOOTER -->
-    </div>
-    <!-- START OVERLAY SEARCH -->
-    <div class="overlay hide" data-pages="search">
-      <!-- BEGIN Overlay Content !-->
-      <div class="overlay-content full-height has-results">
-        <!-- END Overlay Header !-->
-        <div class="container relative full-height">
-          <!-- BEGIN Overlay Header !-->
-          <div class="container-fluid">
-            <!-- BEGIN Overlay Close !-->
-            <a href="#" class="close-icon-light overlay-close text-black fs-16 top-right">
-              <i class="pg-close_line"></i>
-            </a>
-            <!-- END Overlay Close !-->
-          </div>
-          <div class="container-fluid">
-            <div class="inline-block bottom-right m-b-30">
-              <div class="checkbox right">
-                <input id="checkboxn" type="checkbox" value="1" checked="checked">
-                <label for="checkboxn">Search within page</label>
-              </div>
-            </div>
-          </div>
-          <div class="container-xs-height full-height">
-            <div class="col-xs-height col-middle text-center">
-              <!-- BEGIN Overlay Controls !-->
-              <input id="overlay-search" class="no-border overlay-search bg-transparent col-sm-6 col-sm-offset-4" placeholder="Search..." autocomplete="off" spellcheck="false">
-              <br>
-              <div class="inline-block bottom-left m-l-10 m-b-30 hidden-xs">
-                <p class="fs-14"><i class="fa fa-search m-r-10"></i> Press enter to search</p>
-              </div>
-              <!-- END Overlay Controls !-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- END Overlay Content !-->
-    </div>
-    <!-- END OVERLAY SEARCH -->
+
     <!-- BEGIN CORE FRAMEWORK -->
-    <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script type="text/javascript" src="assets/js/flexslider.min.js"></script>
+    <script type="text/javascript" src="assets/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/js/masonry.min.js"></script>
+    <script type="text/javascript" src="assets/js/spectragram.min.js"></script>
+    <script type="text/javascript" src="assets/js/smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="assets/js/parallax.js"></script>
+
+    <script type="text/javascript" src="assets/plugins/pace/pace.min.js"></script>
     <script type="text/javascript" src="pages/js/pages.image.loader.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- BEGIN SWIPER DEPENDENCIES -->
     <script type="text/javascript" src="assets/plugins/swiper/js/swiper.jquery.min.js"></script>
     <script type="text/javascript" src="assets/plugins/velocity/velocity.min.js"></script>
@@ -592,16 +590,5 @@ a.news2  {
     <!-- END PAGES LIB -->
     <!-- BEGIN YOUR CUSTOM JS -->
     <script type="text/javascript" src="assets/js/custom.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="assets/js/scrolling-nav.js"></script>
     <!-- END PAGES LIB -->
-  </script>
-      <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "url": "http://geolearn.ca",
-          "logo": "https://raw.githubusercontent.com/geoLERN/geoLERN.github.io/master/assets/images/Logo_signature_new.png"
-        }
-      </script>
 </html>
